@@ -11,6 +11,7 @@ Suite Teardown  Close App
 
 *** Test Cases ***
 The user should be able to see Splash screen
+    [Tags]  Smoke
     Splash screen displaying
 
 
