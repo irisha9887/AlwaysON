@@ -11,7 +11,7 @@ Suite Teardown  Close App
 
 *** Test Cases ***
 The user should be able to see Splash screen
-    [Tags]  Smoke
+    [Tags]  Smoke LocalChange
     Splash screen displaying
 
 
