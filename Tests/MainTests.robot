@@ -16,6 +16,7 @@ The user should be able to see Splash screen
 
 
 The user should be able to see Onboarding 1 screen
+    [Tags]  Smoke
     Splash screen displaying
     ##Onboarding 1 screen is displayed
     Terms and PP links are clickable
@@ -35,7 +36,5 @@ The user should be able to see Connection request popup
     Tapping on Get Started button
     Connection request popup is displayed
 
-The user should be able to see Onboarding 2 screen
-    Splash screen displaying
-    Onboarding 2 screen is displayed
+
 
