@@ -5,7 +5,13 @@ Library  String
 *** Keywords ***
 Onboarding 1 screen is displayed
     wait until page contains element  id=com.anchorfree.alwayson:id/description
-    element text should be  com.anchorfree.alwayson:id/description  With just one tap, VPN Always On ${\n} gives you a peace of mind by ${\n} monitoring and blocking various ${\n} security and privacy threats from the ${\n} Internet whenever you browse, ${\n} stream, play or shop.
+    element text should be  com.anchorfree.alwayson:id/description
+    ...                     With just one tap, VPN Always On ${\n}
+    ...                     gives you a peace of mind by ${\n}
+    ...                     monitoring and blocking various ${\n}
+    ...                     security and privacy threats from the ${\n}
+    ...                     Internet whenever you browse, ${\n}
+    ...                     stream, play or shop.
 
 Terms and PP links are clickable
     wait until page contains element  id=com.anchorfree.alwayson:id/walkthrough_terms_of_service

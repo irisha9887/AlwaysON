@@ -1,21 +1,21 @@
 *** Settings ***
-Library  AppiumLibrary
-Resource  ../Resources/PO/Common.robot
+Resource  ../Resources/Common.robot
 Resource  ../Resources/PO/SplashScreen.robot
 Resource  ../Resources/PO/OnboardingScreens.robot
 Resource  ../Resources/PO/DashboardScreen.robot
-
 Suite Setup  Launch Always On App
 Suite Teardown  Close App
 
 
 *** Test Cases ***
 The user should be able to see Splash screen
-    [Tags]  Smoke1 GitChange
-    Splash screen displaying
+    [Tags]  Smoke
+    #Common.Launch Always On App
+    SplashScreen.Splash screen displaying
 
 
 The user should be able to see Onboarding 1 screen
+    #Launch Always On App
     Splash screen displaying
     ##Onboarding 1 screen is displayed
     Terms and PP links are clickable
